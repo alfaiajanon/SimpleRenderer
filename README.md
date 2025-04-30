@@ -14,10 +14,7 @@ A minimal OpenGL renderer written in C++ using GLFW, OpenGL, and Assimp.
 ![Demo](demo.png)
 
 ## Build
-
 ```bash
-mkdir build && cd build
-cmake ..
-make
-./SimpleRenderer
+cmake . && make && ./SimpleRenderer    # for linux
+cmake . && make && SimpleRenderer.exe  # for windows
 ```
